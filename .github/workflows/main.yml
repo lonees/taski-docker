@@ -14,10 +14,10 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: action/checkout@v3
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: action/setuo-python@v4
+      uses: actions/setuo-python@v4
       with:
         python-version: 3.9
 
