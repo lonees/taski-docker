@@ -67,7 +67,7 @@ jobs:
         push: true
         tags: lonees/taski_backend:latest
   frontend_test:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: Set up nodeJS
